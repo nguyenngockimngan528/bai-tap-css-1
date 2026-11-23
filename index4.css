@@ -1,0 +1,65 @@
+/* === 2.4.1 Tạo chữ Drop Cap === */
+p.dropcap {
+  font-family: "Times New Roman", serif;
+  line-height: 1.5;
+  text-align: justify;
+  max-width: 520px;
+}
+
+p.dropcap:first-letter {
+  float: left;
+  font-size: 45px;
+  line-height: 1;
+  font-weight: bold;
+  margin-right: 9px;
+}
+
+/* === 2.4.2 Tạo trang dạng cột báo === */
+.newspaper {
+  font-family: "Times New Roman", serif;
+  line-height: 1.45;
+  text-align: justify;
+  column-count: 3;
+  column-rule: 1px solid blue;
+  -webkit-column-count: 3;
+  -webkit-column-rule: 1px solid blue;
+  column-gap: 24px;
+}
+
+.newspaper:first-letter {
+  float: left;
+  font-size: 45px;
+  line-height: 1;
+  font-weight: bold;
+  margin-right: 9px;
+}
+
+/* === 2.4.3 Hiệu ứng di chuyển transform === */
+.hover-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.hover-list li {
+  margin: 14px 0;
+}
+
+.hover-list li a {
+  display: inline-block;
+  padding: 10px 24px;
+  background: #e2e8f0;
+  color: #0f172a;
+  text-decoration: none;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.hover-list li a:hover {
+  -webkit-transform: rotate(-10deg) scale(2);
+  transform: rotate(-10deg) scale(2);
+  background: #f8fafc;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}

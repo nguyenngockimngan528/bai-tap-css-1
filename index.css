@@ -1,0 +1,106 @@
+/* === 2.1.1 CSS cơ bản === */
+body.mau1 {
+  background-color: lightblue;
+}
+.mau1 h1 {
+  color: white;
+  text-align: center;
+}
+.mau1 p {
+  font-family: Verdana, sans-serif;
+  font-size: 20px;
+}
+
+/* === 2.1.2 Khung viền (border) === */
+p.dotted { border-style: dotted; color: #00f; }
+p.dashed { border-style: dashed; }
+p.solid  { border-style: solid; }
+p.double { border-style: double; }
+p.groove { border-style: groove; color: pink; }
+p.ridge  { border-style: ridge; }
+p.inset  { border-style: inset; color: red; }
+p.outset { border-style: outset; }
+p.none   { border-style: none; }
+p.hidden { border-style: hidden; }
+p.mix    { border-style: dotted dashed solid double; }
+
+/* === 2.1.3 & 2.1.4 Margin inherit & Padding / Box-sizing === */
+.parent-box {
+  border: 1px solid red;
+  margin-left: 100px;
+}
+p.ex1 {
+  margin-left: inherit;
+}
+div.ex1 {
+  border: 1px solid red;
+  width: 300px;
+}
+div.ex2 {
+  border: 1px solid red;
+  width: 300px;
+  padding: 10px;
+}
+div.ex3 {
+  border: 1px solid red;
+  width: 300px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* === 2.1.5 Rectangles (3 div lồng nhau) === */
+.outside {
+  border: 2px dotted blue;
+  border-radius: 16px;
+  padding: 20px;
+  width: 360px;
+  margin: 20px auto;
+}
+.middle {
+  border: 2px dashed red;
+  border-radius: 12px;
+  padding: 20px;
+}
+.inner {
+  border: 2px solid green;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* === 2.1.6 Languages (langs.css) === */
+body.langs-page {
+  background: #EEE;
+  line-height: 1.5em;
+  font-size: 24pt;
+}
+.lang {
+  border: 1px solid #AAA;
+  border-radius: 20px;
+  background: #CCC;
+  padding: 2px 10px;
+}
+
+/* === 2.1.7 Float & Clear === */
+.left, .right, .center {
+  width: 120px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  padding: 10px;
+  background: CornflowerBlue;
+  border-radius: 5px;
+  text-shadow: 0px 0px 5px white;
+}
+.left {
+  float: left;
+  margin-right: 10px;
+}
+.right {
+  float: right;
+  margin-left: 10px;
+}
+.center {
+  margin: 0 auto;
+}

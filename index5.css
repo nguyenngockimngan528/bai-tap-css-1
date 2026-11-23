@@ -1,0 +1,206 @@
+/* === 2.5.1 Trang đăng ký thành viên CLB Yêu Nhạc === */
+.mytextbox {
+  color: #99FF33;
+  background-color: #006699;
+  border: 1px solid #996633;
+  width: 300px;
+  padding: 4px 6px;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#form1 table {
+  border: 5px groove #993366;
+  background-color: #FFDDDD;
+  color: #003399;
+  margin: 0px auto;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+#form1 table caption {
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 8px;
+  color: #003399;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+#form1 table td {
+  border: 1px solid #CC9999;
+  padding: 5px 8px;
+}
+
+/* === 2.5.2 Trang liên hệ (Contact Us) === */
+form.contact-us {
+  background: #eee;
+  display: inline-block;
+  padding: 12px 16px;
+}
+
+form.contact-us span {
+  display: inline-block;
+  width: 80px;
+  background: #eee;
+  margin: 10px 3px 3px 8px;
+}
+
+form.contact-us input,
+form.contact-us select {
+  width: 150px;
+  height: 22px;
+  margin: 0px 5px;
+  box-sizing: border-box;
+}
+
+form.contact-us select {
+  margin: 1px 5px;
+}
+
+form.contact-us input[type='submit'] {
+  display: block;
+  margin: 10px 0px 12px 98px;
+  width: 80px;
+  height: 30px;
+}
+
+/* === 2.5.3 Trang góp ý === */
+.contact-form {
+  margin: 30px auto;
+  width: 770px;
+  max-width: 100%;
+  color: #6e6e6e;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.contact-form h2 {
+  color: #383838;
+  font-size: 18px;
+  margin-bottom: 17px;
+}
+
+.contact-form p {
+  margin-bottom: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 0 1px 1px 0 #ddd inset;
+  box-sizing: border-box;
+  color: #6e6e6e;
+  padding-left: 20px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
+  height: 40px;
+}
+
+.contact-form input[type="email"] {
+  float: right;
+}
+
+.contact-form textarea {
+  height: 255px;
+  padding-top: 10px;
+}
+
+.half-size { width: 370px; }
+.full-size { width: 100%; }
+
+.contact-form button {
+  background-color: #7dcefd;
+  border: 1px solid #59a8d5;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  min-width: 125px;
+  padding: 11px 10px;
+  text-align: center;
+  transition: 0.3s background-color;
+}
+
+.contact-form button:hover {
+  background-color: #59a8d5;
+}
+
+.contact-form .submit {
+  margin-top: -10px;
+}
+
+/* === 2.6 Thiết kế Layout trang web mẫu === */
+body.layout-page {
+  margin: 0px;
+  font-family: Arial, sans-serif;
+}
+
+#container {
+  width: 1000px;
+  max-width: 100%;
+  margin: 0px auto;
+  min-height: 600px;
+  background-color: #CCC;
+}
+
+#container header {
+  background-color: #FF0;
+  height: 150px;
+  position: relative;
+}
+
+#container nav {
+  height: 60px;
+  background-color: #000;
+  color: #FFF;
+}
+
+#container nav ul li {
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+#container nav a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+#container nav li:hover {
+  text-decoration: underline;
+  background-color: #CF3;
+  color: #F00;
+  border-radius: 9px;
+}
+
+#container nav li:hover a {
+  color: #F00;
+}
+
+#content {
+  background-color: #FCF;
+  min-height: 400px;
+  width: 790px;
+  float: left;
+  padding: 5px;
+}
+
+#right {
+  background-color: #0F3;
+  min-height: 400px;
+  width: 200px;
+  float: right;
+}
+
+#container footer {
+  background-color: #C09;
+  color: #FFF;
+  height: 30px;
+  text-align: center;
+  clear: both;
+  margin: 5px 0px 0px 0px;
+  padding: 10px 0px 0px 0px;
+}
